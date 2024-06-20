@@ -1,0 +1,36 @@
+btc:
+  monitor:
+    beginBlock: 814054
+    outs:
+      - txId : "52b98be7dfa117702cc3afde053e5ef73b6b9a259622504f2a8d777c8e058ba6"
+        outIndex : 0
+        value : "5.27447161"
+        receiver: "bc1quldv8qfz76cdyfq5v25erxu2c8f6v78vgs3evz"
+      - txId : "52b98be7dfa117702cc3afde053e5ef73b6b9a259622504f2a8d777c8e058ba6"
+        outIndex : 1
+        value : "0.05032887"
+        receiver: "bc1qsf2dsfxlm7z0ywwpeu3362w0agcynfngyl8r9c"
+      - txId : "f09de186285a5c77e7424b8f08a0a8cf59f057ddf8fd322a0e73675c486b7068"
+
+
+
+
+
+
+#spring:
+#  datasource:
+#    url: "jdbc:mysql://172.16.200.35:3306/btc_monitor?useSSL=false"
+#    username: root
+#    password: my-secret-pw
+#    driver-class-name: "com.mysql.cj.jdbc.Driver"
+
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3307/btc_monitor?useSSL=false"
+    username: root
+    password: root
+    driver-class-name: "com.mysql.cj.jdbc.Driver"
+
+
+slack:
+  url: https://hooks.slack.com/services/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
